@@ -12,4 +12,7 @@ Le github est composé de 2 dossiers :
       -  "" contient les poids d'un DCGAN de dimension 100 et de fonction d'activation ReLU
       -  "" contient les poids d'un DCGAN de dimension 200 et de fonction d'activation ReLU
       -  "" contient les poids d'un DCGAN de dimension 100 et de fonction d'activation Tanh
-      
+
+
+## Modèle interactif d'explroation du VAE
+![Enregistrement de l’écran 2022-04-29 à 12 13 38-2](https://user-images.githubusercontent.com/73143008/166080310-468ead3b-80b7-4b6d-a0dd-e5a38a0a5d3c.gif)
