@@ -16,5 +16,5 @@ Le github est composé de 2 dossiers :
 
 ## Modèle interactif d'exploration du VAE
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73143008/166080801-4e44d55e-1fa0-4807-89cc-f79209de9199.gif" width="1200" height="1200" />
+  <img src="https://user-images.githubusercontent.com/73143008/166080801-4e44d55e-1fa0-4807-89cc-f79209de9199.gif" width="800" height="800" />
 </p>
