@@ -2,16 +2,23 @@
 
 Projet d'intelligence artificielle du cours INF8225 à Polytechnique Montréal.
 
+Auteurs : Augustin BARRUOL, Ilan BASTA, Lamia SALHI, Andrey SOBOLEVSKY
 
-Le github est composé de 2 dossiers :
+
+Ce GitHub est composé de 2 dossiers :
 
 - le dossier GAN comporte : 
-  - Un jupyternotebook pour entrainer un DCGAN et visualiser les images générés, les interpolations linéaires et sphériques ainsi qu'une pojection T-SNE       d'un   modèle au choix. Le code du DCGAN est inspiré du gitub https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_dcgan.
+  - Un jupyternotebook pour entrainer un DCGAN et visualiser les images générées, les interpolations linéaires et sphériques ainsi qu'une pojection T-SNE       d'un modèle au choix. Le code du DCGAN est inspiré du gitub https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_dcgan.
   - Un dossier comportant les poids pour différents modèles entrainés :
       -  "" contient les poids d'un DCGAN de dimension 2 et de fonction d'activation ReLU
       -  "" contient les poids d'un DCGAN de dimension 100 et de fonction d'activation ReLU
       -  "" contient les poids d'un DCGAN de dimension 200 et de fonction d'activation ReLU
       -  "" contient les poids d'un DCGAN de dimension 100 et de fonction d'activation Tanh
+
+- le dossier VAE comporte : 
+  - Un jupyter notebook (`VAE.ipynb`) pour entrainer un VAE et visualiser les images générées, les interpolations linéaires et sphériques ainsi qu'une pojection T-SNE d'un modèle au choix. Le code du VAE est inspiré du gitub https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_vae.
+  - Un jupyternotebook (`VAE_interactif.ipynb`) qui utilise un modèle de VAE pour effectuer une représentation interactive de l'espace latent.
+  - Un dossier (`Models`)comportant les poids pour différents modèles entrainés
 
 
 ## Modèle interactif d'exploration du VAE
